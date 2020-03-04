@@ -4,6 +4,7 @@ public class Veiculo {
 	private String modelo;
 	private String marca;
 	private int ano;
+	private int velocidadeAtual;
 
 	public String getModelo() {
 		return modelo;
@@ -27,5 +28,13 @@ public class Veiculo {
 
 	public void setAno(int ano) {
 		this.ano = ano;
+	}
+
+	public int getVelocidadeAtual() {
+		return velocidadeAtual;
+	}
+
+	public void setVelocidadeAtual(int velocidadeAtual) {
+		this.velocidadeAtual = velocidadeAtual;
 	}
 }

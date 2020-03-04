@@ -1,12 +1,13 @@
 package herancaExercicio;
 
-public class TesteVeiculo {
+public class TesteHeranca {
 	public static void main(String[] args) {
 		Carro celta = new Carro();
 		celta.setMarca("Chevrolet");
 		celta.setModelo("Celta");
 		celta.setPortas(4);
 		celta.setImportado(false);
+		celta.setVelocidadeAtual(80);
 
 		Moto cg = new Moto();
 		cg.setMarca("Honda");
@@ -19,5 +20,13 @@ public class TesteVeiculo {
 		lanchaTop.setModelo("640");
 		lanchaTop.setCapacidade(24);
 		lanchaTop.setMotor("Centro");
+
+		exibirVeiculo(celta);
+	}
+
+	private static void exibirVeiculo(Veiculo veiculo) {
+		System.out.println("Marca: " + veiculo.getMarca() +
+				"\nModelo: " + veiculo.getModelo() +
+				"\nVelocidade Atual: " + veiculo.getVelocidadeAtual() + " km/h");
 	}
 }
