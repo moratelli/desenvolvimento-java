@@ -21,4 +21,9 @@ public class PessoaFisica extends Pessoa {
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+
+	@Override
+	public void validarRegistro() {
+		//Validar CPF
+	}
 }

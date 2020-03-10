@@ -4,6 +4,10 @@ public class Carro extends Veiculo {
 	private int portas;
 	private boolean importado;
 
+	public Carro(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+	}
+
 	public int getPortas() {
 		return portas;
 	}

@@ -4,6 +4,10 @@ public class Lancha extends Veiculo {
 	private int capacidade;
 	private String motor;
 
+	public Lancha(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+	}
+
 	public int getCapacidade() {
 		return capacidade;
 	}

@@ -4,6 +4,10 @@ public class Moto extends Veiculo {
 	private int cilindradas;
 	private boolean bau;
 
+	public Moto(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+	}
+
 	public int getCilindradas() {
 		return cilindradas;
 	}
