@@ -1,6 +1,6 @@
-package heranca;
+package oo;
 
-public class PessoaJuridica extends Pessoa {
+public class PessoaJuridica extends Pessoa implements IPessoa {
 	private long cnpj;
 	private String razaoSocial;
 
@@ -23,5 +23,20 @@ public class PessoaJuridica extends Pessoa {
 	@Override
 	public void validarRegistro() {
 		//Validar CNPJ
+	}
+
+	@Override
+	public void salvar() {
+
+	}
+
+	@Override
+	public void excluir() {
+
+	}
+
+	@Override
+	public void alterar() {
+
 	}
 }

@@ -1,8 +1,8 @@
-package heranca;
+package oo;
 
 import java.util.Date;
 
-public class PessoaFisica extends Pessoa {
+public class PessoaFisica extends Pessoa implements IPessoa {
 	private long cpf;
 	private Date dataNascimento;
 
@@ -25,5 +25,20 @@ public class PessoaFisica extends Pessoa {
 	@Override
 	public void validarRegistro() {
 		//Validar CPF
+	}
+
+	@Override
+	public void salvar() {
+
+	}
+
+	@Override
+	public void excluir() {
+
+	}
+
+	@Override
+	public void alterar() {
+
 	}
 }

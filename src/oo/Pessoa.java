@@ -1,4 +1,4 @@
-package heranca;
+package oo;
 
 public abstract class Pessoa {
 	private String nome;
